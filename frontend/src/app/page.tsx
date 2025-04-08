@@ -73,7 +73,7 @@ export default function App() {
 
   return (
     <div className={`min-h-screen flex flex-col items-center  ${theme.bgColor} ${theme.textColor}`}>
-      <div className="w-full  rounded-lg mb-4 ">
+      <div className="w-full h-[80vh] rounded-lg mb-4 ">
         <PerlinMeshCanvas ref={audioRef} mood={currentMood} />
       </div>
 
